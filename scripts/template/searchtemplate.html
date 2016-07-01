@@ -1,0 +1,16 @@
+    <div class=" col-md-12 col-sm-12 col-xs-12">
+        <div class="input-group">
+            <input type="text" class="search-input form-control" ng-style="searchinputstyle" ng-model="rawSearchStr" placeholder="Search for ..." data-toggle="dropdown"/>
+            <ul class="dropdown-menu" ng-style="searchliststyle" role="menu">
+                <li ng-repeat="str in searchResult">
+                    <a href="#">{{str}}</a>
+                </li>
+            </ul>
+            <div class="input-group-btn input-group-lg input-group-md">
+
+                <button type="button" class="btn btn-default btn-responsive" ng-click="searchbtnclick()" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>

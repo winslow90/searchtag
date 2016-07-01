@@ -1,0 +1,17 @@
+{
+  "name": "northwester_jun_30",
+  "authors": [
+    "superman90 <liwentao90@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
